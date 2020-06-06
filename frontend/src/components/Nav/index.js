@@ -18,6 +18,9 @@ const Nav = () => {
                       <Link to="/">Strapi Blog</Link>
                     </li>
                     <li>
+                      <Link to="/articles">All Articles Page</Link>
+                    </li>
+                    <li>
                       <Link to="/private">Auth Page</Link>
                     </li>
                     <li>
