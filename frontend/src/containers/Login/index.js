@@ -13,7 +13,7 @@ function Login(props) {
   const { setAuthTokens } = useAuth();
 
   function postLogin() {
-    axios.post("https://strapi-upload.herokuapp.com", {
+    axios.post("https://strapi-upload.herokuapp.com/auth/local", {
       identifier,
       password
     }).then(result => {
